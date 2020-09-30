@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include surgalt *.css
+recursive-include surgalt *.csv
+recursive-include surgalt *.html
+recursive-include surgalt *.ico
+recursive-include surgalt *.js
+recursive-include surgalt *.json
+recursive-include surgalt *.md
+recursive-include surgalt *.png
+recursive-include surgalt *.py
+recursive-include surgalt *.svg
+recursive-include surgalt *.txt
+recursive-exclude surgalt *.pyc
